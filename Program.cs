@@ -20,7 +20,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        string text = "New text";
+        string text = "New text"; 
         #region Encoding and Decoding
         var encode = Encoding.UTF8.GetBytes(text);
         Console.WriteLine(encode);
